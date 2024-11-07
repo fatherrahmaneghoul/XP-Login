@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP Login - Level Up Your Access</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/XP-Logo.png" sizes="32x32">
+
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>XP Login</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <div class="password-container">
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <span id="toggle-password" class="toggle-password" style="display: none;">👁️</span>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+        <a href="forgot-password.html" class="forgot-password">Forgot Password?</a>
+    
+        <a href="CreateAccount.html" class="create-account">Create an Account</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
